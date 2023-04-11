@@ -1,0 +1,57 @@
+/* Write your CSS code here */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.website-login {
+  width: 45%;
+  height: 400px;
+}
+.submit-form {
+  height: 60vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.website-form-logo {
+  width: 50%;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.label-name {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.input-style {
+  color: #64748b;
+  background-color: #e2e8f0;
+  border: none;
+  outline: none;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 180px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  padding: 7px;
+  border-radius: 6px;
+}
+.error_message {
+  color: #ff0b37;
+  font-size: 11px;
+  font-family: 'Roboto';
+}
